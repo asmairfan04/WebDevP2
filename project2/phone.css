@@ -1,0 +1,88 @@
+#navbar{
+    flex-direction: column;
+    
+}
+#navbar li a{
+    font-size: 0.8rem;
+    padding: 10px 2px;
+}
+
+
+#home{
+    padding: 87px 58px;
+    height: 214px;
+}
+#home p, p{
+    font-size: 0.9rem;
+    margin: 0;
+}
+
+
+.services{
+    flex-direction: column;
+}
+.services .box{
+    height: 30%;
+    width:70%;
+    
+
+}
+.services .box img{
+    height: 60%;
+    width: 65%;
+
+}
+
+
+#clients{
+    flex-wrap: wrap;
+    margin-top: 52px;
+}
+.client-item {
+    padding: 12px;
+}
+.client-item img{
+    height:120px;
+    width: 125px;
+}
+
+
+
+
+.primary
+{
+    font-size: 1.3rem;
+    margin: 0;
+}
+.btn{
+    font-size: .9rem;
+    padding: 8px;
+}
+.secondary{
+    font-size: 1.1rem;
+}
+@media(max-width:595px){
+    #client-section::before {
+        height: 365px;
+    }
+    #client-section {
+        height: 248px;
+    }
+    #clients{
+        margin-top: 10px;
+    }
+    #contact-box input,#contact-box textarea{
+        font-size: 0.9rem;
+        padding: 0.2rem;
+    }
+    #contact-box label{
+        font-size: 1.0rem;
+    
+    }
+    #contact::before {
+        height: 614px;
+    }
+    #contact-box form{
+        width: 80%;
+
+}
